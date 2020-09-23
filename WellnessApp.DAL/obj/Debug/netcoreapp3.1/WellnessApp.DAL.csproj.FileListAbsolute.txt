@@ -1,0 +1,12 @@
+C:\Users\Oisin\source\repos\WellnessApp\WellnessApp.DAL\bin\Debug\netcoreapp3.1\WellnessApp.DAL.deps.json
+C:\Users\Oisin\source\repos\WellnessApp\WellnessApp.DAL\bin\Debug\netcoreapp3.1\WellnessApp.DAL.dll
+C:\Users\Oisin\source\repos\WellnessApp\WellnessApp.DAL\bin\Debug\netcoreapp3.1\WellnessApp.DAL.pdb
+C:\Users\Oisin\source\repos\WellnessApp\WellnessApp.DAL\bin\Debug\netcoreapp3.1\WellnessApp.Core.dll
+C:\Users\Oisin\source\repos\WellnessApp\WellnessApp.DAL\bin\Debug\netcoreapp3.1\WellnessApp.Core.pdb
+C:\Users\Oisin\source\repos\WellnessApp\WellnessApp.DAL\obj\Debug\netcoreapp3.1\WellnessApp.DAL.csprojAssemblyReference.cache
+C:\Users\Oisin\source\repos\WellnessApp\WellnessApp.DAL\obj\Debug\netcoreapp3.1\WellnessApp.DAL.AssemblyInfoInputs.cache
+C:\Users\Oisin\source\repos\WellnessApp\WellnessApp.DAL\obj\Debug\netcoreapp3.1\WellnessApp.DAL.AssemblyInfo.cs
+C:\Users\Oisin\source\repos\WellnessApp\WellnessApp.DAL\obj\Debug\netcoreapp3.1\WellnessApp.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Oisin\source\repos\WellnessApp\WellnessApp.DAL\obj\Debug\netcoreapp3.1\WellnessApp.DAL.csproj.CopyComplete
+C:\Users\Oisin\source\repos\WellnessApp\WellnessApp.DAL\obj\Debug\netcoreapp3.1\WellnessApp.DAL.dll
+C:\Users\Oisin\source\repos\WellnessApp\WellnessApp.DAL\obj\Debug\netcoreapp3.1\WellnessApp.DAL.pdb

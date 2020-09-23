@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/8504fa9d-2a83-402f-a9e3-00ed0fc76821/resourceGroups/WellnessApp-dev-rg/providers/Microsoft.Web/sites/headhelp",
+    "appService.deploySubpath": "."
+}

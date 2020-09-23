@@ -1,0 +1,42 @@
+
+    <!-- Container -->
+    <div class="container mx-auto font-mono">
+        <div class="flex justify-center px-6 my-12">
+            <!-- Row -->
+            <div class="w-full xl:w-3/4 lg:w-11/12 flex">
+                <!-- Col -->
+                <div
+                    class="w-full h-auto bg-gray-400 hidden lg:block lg:w-5/12 bg-cover rounded-l-lg"
+                    style="background-image: url('../../assets/best.jpg')"
+                ></div>
+                <!-- Col -->
+                <div class="w-full lg:w-7/12 bg-white p-5 rounded-lg lg:rounded-l-none">
+                    <h3 class="pt-4 text-2xl text-center">Create an Account!</h3>
+                    <form [formGroup]="registerForm" (ngSubmit)="onSubmit(registerForm.value)" class="flex flex-col pt-3 md:pt-8" onsubmit="event.preventDefault();">
+                        <div class="flex flex-col pt-4">
+                            <label class="text-2xl">Email</label>
+                            <input id="email" type="text" formControlName="email" placeholder="Joe.blogs@gmail.com" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline">
+                        </div>
+
+                        <div class="flex flex-col pt-4">
+                            <label class="text-2xl">Username</label>
+                            <input id="username" type="text" formControlName="username" placeholder="JoeBlogs123" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline">
+                        </div>
+        
+                        <div class="flex flex-col pt-4">
+                            <label class="text-2xl">Password</label>
+                            <input id="password" type="password" formControlName="password" placeholder="Password" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline">
+                        </div>
+
+                        <div class="flex flex-col pt-4">
+                            <label class="text-2xl">Confirm Password</label>
+                            <input id="confirmPassword" type="password" formControlName="confirmPassword" placeholder="Password" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mt-1 leading-tight focus:outline-none focus:shadow-outline">
+                        </div>
+        
+                        <button type="submit" class="text-white bg-blue-800 font-bold text-4xl outline-none hover:bg-green-600 p-2 mt-8 rounded-lg focus:outline-none">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
