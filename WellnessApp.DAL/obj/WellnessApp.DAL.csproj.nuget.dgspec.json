@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.DAL\\WellnessApp.DAL.csproj": {}
+    "c:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.DAL\\WellnessApp.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.Core\\WellnessApp.Core.csproj": {
+    "c:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.Core\\WellnessApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.Core\\WellnessApp.Core.csproj",
+        "projectUniqueName": "c:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.Core\\WellnessApp.Core.csproj",
         "projectName": "WellnessApp.Core",
-        "projectPath": "C:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.Core\\WellnessApp.Core.csproj",
+        "projectPath": "c:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.Core\\WellnessApp.Core.csproj",
         "packagesPath": "C:\\Users\\Oisin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.Core\\obj\\",
+        "outputPath": "c:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Oisin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,9 +38,29 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Angular.Material": {
+              "target": "Package",
+              "version": "[1.1.12, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[3.1.8, )"
             },
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
@@ -50,21 +70,7 @@
               "target": "Package",
               "version": "[2.2.0, )"
             },
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.8, )"
-            },
-            "Microsoft.AspNetCore.SpaServices.Extensions": {
-              "target": "Package",
-              "version": "[3.1.8, )"
-            },
             "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.8, )"
             },
@@ -77,6 +83,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.8, )"
+            },
+            "Node.js": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.1, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -94,9 +108,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -105,14 +116,14 @@
         }
       }
     },
-    "C:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.DAL\\WellnessApp.DAL.csproj": {
+    "c:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.DAL\\WellnessApp.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.DAL\\WellnessApp.DAL.csproj",
+        "projectUniqueName": "c:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.DAL\\WellnessApp.DAL.csproj",
         "projectName": "WellnessApp.DAL",
-        "projectPath": "C:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.DAL\\WellnessApp.DAL.csproj",
+        "projectPath": "c:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.DAL\\WellnessApp.DAL.csproj",
         "packagesPath": "C:\\Users\\Oisin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.DAL\\obj\\",
+        "outputPath": "c:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Oisin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -128,8 +139,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.Core\\WellnessApp.Core.csproj": {
-                "projectPath": "C:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.Core\\WellnessApp.Core.csproj"
+              "c:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.Core\\WellnessApp.Core.csproj": {
+                "projectPath": "c:\\Users\\Oisin\\source\\repos\\WellnessApp\\WellnessApp.Core\\WellnessApp.Core.csproj"
               }
             }
           }
@@ -143,9 +154,29 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Angular.Material": {
+              "target": "Package",
+              "version": "[1.1.12, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[3.1.8, )"
             },
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
@@ -159,17 +190,7 @@
               "target": "Package",
               "version": "[3.1.8, )"
             },
-            "Microsoft.AspNetCore.SpaServices.Extensions": {
-              "target": "Package",
-              "version": "[3.1.8, )"
-            },
             "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[3.1.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.8, )"
             },
@@ -177,11 +198,13 @@
               "target": "Package",
               "version": "[3.1.8, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Node.js": {
               "target": "Package",
-              "version": "[3.1.8, )"
+              "version": "[5.3.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.1, )"
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
@@ -199,9 +222,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
