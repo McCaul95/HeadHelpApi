@@ -1,15 +1,49 @@
 
-  <div class=" flex justify-center py-4 border-b border-black font-bold text-xl">
-      <a class="p-2 hover:bg-indigo-300 no-underline text-teal-dark rounded-lg border-black uppercase tracking-wide font-bold  py-3 mr-8" (click)="homeNav()">
-          Home
-      </a>
-      <a class="p-2 hover:bg-indigo-300 no-underline text-grey-dark rounded-lg border-black uppercase tracking-wide font-bold py-3 mr-8" (click)="resourceNav()">
-          Resources
-      </a>
-      <a class="p-2 hover:bg-indigo-300 no-underline text-grey-dark rounded-lg border-black uppercase tracking-wide font-bold py-3" (click)="supportNav()">
-          Support Chat
-      </a>
-      <a class="p-2 pl-4 hover:bg-indigo-300 no-underline text-grey-dark rounded-lg border-black uppercase tracking-wide font-bold py-3 mr-8" (click)="loginNav()">
-        Login
-    </a>
-  </div>
+  <div class="py-4 px-2 lg:mx-4 xl:mx-12 ">
+    <div class="">
+        <nav class="flex items-center justify-between flex-wrap  ">
+            <div class="flex items-center flex-no-shrink text-white mr-6 ">
+                <img src="https://nemtroutes.com/img/logo/logo.png" alt="" class="h-12 xl:h-20  mr-2  ">
+                <!-- <span class="text-gray-700 mt-2 hover:text-indigo-400 font-black">
+                                    Yamsol llc
+                                </span> -->
+
+            </div>
+            <div class="block lg:hidden">
+                <button
+                    class="navbar-burger flex items-center px-3 py-2 border rounded text-white border-white hover:text-white hover:border-white">
+                    <svg class="fill-current h-6 w-6 text-gray-700" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <title>Menu</title>
+                        <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+                    </svg>
+                </button>
+            </div>
+            <div id="main-nav" class="w-full flex-grow lg:flex items-center lg:w-auto hidden  ">
+                <div class="text-lg lg:flex-grow mt-2 animated jackinthebox xl:mx-8">
+                    <a (click)="homeNav()"
+                        class="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-orange-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
+                        HOME
+                    </a>
+                    <a (click)="resourceNav()"
+                        class="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-orange-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
+                        RESOURCES
+                    </a>
+                    <a href="https://www.instagram.com/headhelp2020/"
+                        class="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-orange-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
+                        INSTAGRAM
+                    </a>
+                    <a href="https://www.facebook.com/supportandwellness"
+                        class="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-orange-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
+                        FACEBOOK
+                    </a>
+                    <a (click)="loginNav()"
+                        class="block lg:inline-block text-md font-bold  text-gray-900  sm:hover:border-indigo-400  hover:text-orange-500 mx-2 focus:text-blue-500  p-1 hover:bg-gray-300 sm:hover:bg-transparent rounded-lg">
+                        LOGIN
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
