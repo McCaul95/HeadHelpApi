@@ -15,9 +15,6 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using WellnessApp.DAL.Authentication;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authorization;
-using System.Security.Claims;
 
 namespace Glossary
 {
@@ -39,14 +36,14 @@ namespace Glossary
             services.AddAutoMapper(typeof(Startup));
            
 
-            services.AddDbContext<WellnessAppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), x => x.MigrationsAssembly("WellnessApp.DAL.Migrations")));
-            Console.WriteLine(Configuration.GetConnectionString("DefaultConnection"));
+            services.AddDbContext<WellnessAppDbContext>(options => options.UseSqlServer(Configuration["Data:ConnectionStrings:DefaultConnection"], x => x.MigrationsAssembly("WellnessApp.DAL.Migrations")));
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 
                .AddEntityFrameworkStores<WellnessAppDbContext>()
                .AddDefaultTokenProviders();
 
-           
+            
+
             // Adding Authentication  
             services.AddAuthentication(options =>
             {
@@ -78,13 +75,13 @@ namespace Glossary
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, WellnessAppDbContext dbContext)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
-
+          
             // Shows UseCors with CorsPolicyBuilder.
             app.UseCors(x => x
                  .AllowAnyMethod()

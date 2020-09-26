@@ -12,9 +12,6 @@ using System.Text;
 using System.Threading.Tasks;
 using WellnessApp.Core.Models;
 using WellnessApp.DAL.Configurations;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Google.Protobuf.WellKnownTypes;
 using Microsoft.AspNetCore.Authorization;
 
 namespace WellnessApp.Controllers

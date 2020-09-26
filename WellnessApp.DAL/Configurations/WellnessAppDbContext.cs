@@ -23,7 +23,7 @@ namespace WellnessApp.DAL.Configurations
                 .AddJsonFile(@Directory.GetCurrentDirectory() + "/appsettings.json")
                 .Build();
             var builder = new DbContextOptionsBuilder<WellnessAppDbContext>();
-            var connectionString = configuration.GetConnectionString("Default");
+            var connectionString = configuration.GetConnectionString("DefaultConnection");
             builder.UseSqlServer(connectionString);
             return new WellnessAppDbContext(builder.Options);
         }
