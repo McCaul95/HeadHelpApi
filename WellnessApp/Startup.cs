@@ -36,7 +36,7 @@ namespace Glossary
             services.AddAutoMapper(typeof(Startup));
            
 
-            services.AddDbContext<WellnessAppDbContext>(options => options.UseSqlServer(Configuration["Data:ConnectionStrings:DefaultConnection"], x => x.MigrationsAssembly("WellnessApp.DAL.Migrations")));
+            services.AddDbContext<WellnessAppDbContext>(options => options.UseSqlServer("Server=tcp:head-help-server.database.windows.net,1433;Initial Catalog=HeadHelpDb;Persist Security Info=False;User ID=McCaul95;Password=Jaeger2020;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;", x => x.MigrationsAssembly("WellnessApp.DAL.Migrations")));
             services.AddIdentity<ApplicationUser, IdentityRole>()
                 
                .AddEntityFrameworkStores<WellnessAppDbContext>()
