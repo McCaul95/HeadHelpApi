@@ -23,7 +23,7 @@ namespace WellnessApp.DAL.Configurations
                 .AddJsonFile(@Directory.GetCurrentDirectory() + "/appsettings.json")
                 .Build();
             var builder = new DbContextOptionsBuilder<WellnessAppDbContext>();
-            var connectionString = configuration.GetConnectionString("DefaultConnection");
+            var connectionString = configuration.GetConnectionString("Server=tcp:head-help-server.database.windows.net,1433;Initial Catalog=HeadHelpDb;Persist Security Info=False;User ID=McCaul95;Password=Jaeger2020;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
             builder.UseSqlServer(connectionString);
             return new WellnessAppDbContext(builder.Options);
         }
