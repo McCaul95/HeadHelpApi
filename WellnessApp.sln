@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WellnessApp", "WellnessApp\WellnessApp.csproj", "{9C5F2E13-3F3E-4D7B-A2C0-8AAB4C23FA69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api", "api\api.csproj", "{9C5F2E13-3F3E-4D7B-A2C0-8AAB4C23FA69}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WellnessApp.Core", "WellnessApp.Core\WellnessApp.Core.csproj", "{7AA66075-4B0A-40A3-A49E-9D830FF89307}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api.Core", "api.Core\api.Core.csproj", "{7AA66075-4B0A-40A3-A49E-9D830FF89307}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WellnessApp.DAL", "WellnessApp.DAL\WellnessApp.DAL.csproj", "{E24E4367-D5A7-48A8-9DE4-C734479E90D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api.DAL", "api.DAL\api.DAL.csproj", "{E24E4367-D5A7-48A8-9DE4-C734479E90D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
