@@ -1,0 +1,12 @@
+C:\Users\Oisin\source\repos\WellnessApp\api.Core\bin\release\netcoreapp3.1\api.Core.deps.json
+C:\Users\Oisin\source\repos\WellnessApp\api.Core\bin\release\netcoreapp3.1\api.Core.runtimeconfig.json
+C:\Users\Oisin\source\repos\WellnessApp\api.Core\bin\release\netcoreapp3.1\api.Core.runtimeconfig.dev.json
+C:\Users\Oisin\source\repos\WellnessApp\api.Core\bin\release\netcoreapp3.1\api.Core.dll
+C:\Users\Oisin\source\repos\WellnessApp\api.Core\bin\release\netcoreapp3.1\api.Core.pdb
+C:\Users\Oisin\source\repos\WellnessApp\api.Core\obj\release\netcoreapp3.1\api.Core.csprojAssemblyReference.cache
+C:\Users\Oisin\source\repos\WellnessApp\api.Core\obj\release\netcoreapp3.1\api.Core.AssemblyInfoInputs.cache
+C:\Users\Oisin\source\repos\WellnessApp\api.Core\obj\release\netcoreapp3.1\api.Core.AssemblyInfo.cs
+C:\Users\Oisin\source\repos\WellnessApp\api.Core\obj\release\netcoreapp3.1\api.Core.csproj.CoreCompileInputs.cache
+C:\Users\Oisin\source\repos\WellnessApp\api.Core\obj\release\netcoreapp3.1\api.Core.dll
+C:\Users\Oisin\source\repos\WellnessApp\api.Core\obj\release\netcoreapp3.1\api.Core.pdb
+C:\Users\Oisin\source\repos\WellnessApp\api.Core\obj\release\netcoreapp3.1\api.Core.genruntimeconfig.cache

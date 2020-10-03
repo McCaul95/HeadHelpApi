@@ -1,0 +1,15 @@
+C:\Users\Oisin\source\repos\WellnessApp\api.DAL\bin\release\netcoreapp3.1\api.DAL.deps.json
+C:\Users\Oisin\source\repos\WellnessApp\api.DAL\bin\release\netcoreapp3.1\api.DAL.runtimeconfig.json
+C:\Users\Oisin\source\repos\WellnessApp\api.DAL\bin\release\netcoreapp3.1\api.DAL.runtimeconfig.dev.json
+C:\Users\Oisin\source\repos\WellnessApp\api.DAL\bin\release\netcoreapp3.1\api.DAL.dll
+C:\Users\Oisin\source\repos\WellnessApp\api.DAL\bin\release\netcoreapp3.1\api.DAL.pdb
+C:\Users\Oisin\source\repos\WellnessApp\api.DAL\bin\release\netcoreapp3.1\api.Core.dll
+C:\Users\Oisin\source\repos\WellnessApp\api.DAL\bin\release\netcoreapp3.1\api.Core.pdb
+C:\Users\Oisin\source\repos\WellnessApp\api.DAL\obj\release\netcoreapp3.1\api.DAL.csprojAssemblyReference.cache
+C:\Users\Oisin\source\repos\WellnessApp\api.DAL\obj\release\netcoreapp3.1\api.DAL.AssemblyInfoInputs.cache
+C:\Users\Oisin\source\repos\WellnessApp\api.DAL\obj\release\netcoreapp3.1\api.DAL.AssemblyInfo.cs
+C:\Users\Oisin\source\repos\WellnessApp\api.DAL\obj\release\netcoreapp3.1\api.DAL.csproj.CoreCompileInputs.cache
+C:\Users\Oisin\source\repos\WellnessApp\api.DAL\obj\release\netcoreapp3.1\api.DAL.csproj.CopyComplete
+C:\Users\Oisin\source\repos\WellnessApp\api.DAL\obj\release\netcoreapp3.1\api.DAL.dll
+C:\Users\Oisin\source\repos\WellnessApp\api.DAL\obj\release\netcoreapp3.1\api.DAL.pdb
+C:\Users\Oisin\source\repos\WellnessApp\api.DAL\obj\release\netcoreapp3.1\api.DAL.genruntimeconfig.cache
